@@ -22,7 +22,7 @@ class TypeWriter {
             this.txt = fullTxt.substring(0, this.txt.length + 1)
         }
 
-        //Insert txt in element
+        //Insert txt into element
         this.txtElement.innerHTML = `<span class='txt'>${this.txt}</span>`;
 
         //Type Speed
